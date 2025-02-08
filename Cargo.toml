@@ -1,0 +1,20 @@
+[package]
+name = "Loggistic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-stream = "0.3.6"
+futures = "0.3.31"
+retry = "2.0.0"
+serde = "1.0.215"
+serde_derive = "1.0.215"
+serde_json = "1.0.132"
+tokio = { version = "1.41.1", features = ["rt", "rt-multi-thread", "macros", "sync"] }
+toml = "0.8.19"
+log = { version = "0.4.22", features = [ "std" ] }
+tokio-stream = { version = "0.1.16", features = [ "sync" ] }
+nix = "0.29.0"
+simplelog = "0.12.2"
+nom = "8.0.0"
+elasticsearch = "8.17.0-alpha.1"
